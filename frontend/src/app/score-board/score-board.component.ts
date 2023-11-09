@@ -3,6 +3,8 @@
  * SPDX-License-Identifier: MIT
  */
 
+var escapeHtml = require('escape-html')
+
 import { MatTableDataSource } from '@angular/material/table'
 import { DomSanitizer } from '@angular/platform-browser'
 import { ChallengeService } from '../Services/challenge.service'
